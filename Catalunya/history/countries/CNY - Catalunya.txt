@@ -57,7 +57,7 @@ set_politics = {
 	ruling_party = democratic
 	last_election = "1932.10.20"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
@@ -74,6 +74,36 @@ create_country_leader = {
 	ideology = socialism
 	traits = {
 		#
+	}
+}
+
+create_country_leader = {
+	name = "Andreu Nin"
+	desc = ""
+	picture = "nin.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Francesc Cambó"
+	desc = ""
+	picture = "cambo.dds"
+	expire = "1965.1.1"
+	ideology = oligarchism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Josep Dencàs"
+	desc = ""
+	picture = "dencas.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
 	}
 }
 
